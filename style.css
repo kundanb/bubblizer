@@ -1,0 +1,32 @@
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+}
+
+#audio-sel-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  background: #f25c54;
+  border-radius: 100%;
+  border: 4px solid white;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#audio-sel-btn:hover {
+  background: #f4845f;
+}
+
+#audio-sel-btn img {
+  max-width: 75%;
+  max-height: 75%;
+}
